@@ -8,16 +8,32 @@
 }
 header{
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
 }
 .paragraph-header{
-
-}
-
+    font-size: 1.8vw;
+    font-weight: bold;
+    margin-left: 9vw;
+    display: flex;
+    align-items: center;
 }
 nav{
+    margin-right: 8vw;
+    display: flex;
+    align-items: center;
+    
+}
+li{
     list-style: none;
+    padding-right: 2vw;
+    font-size: 1vw;
+}
+ul{
+    display: flex;
+}
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
 }
