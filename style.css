@@ -37,3 +37,68 @@ li:hover{
     cursor: pointer;
     font-weight: bold;
 }
+.coluna-1{
+    margin-left: 140px;
+    margin-right: 4px;
+}
+.coluna-2{
+    margin-right: 4px;
+}
+.coluna-3{
+    margin-right: 4px;
+}
+.coluna-4{
+    margin-right: 140px;
+}
+.produtos{
+    padding-top: 5%;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.img-produtos{
+    margin-left: 4px;
+    width: 100%;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+footer{
+    display: flex;
+    background: transparent url('img/Grupo 10.png') 0% 0% no-repeat padding-box;
+}
+.p1-footer{
+    margin-left: 300px;
+    font-weight: bold;
+}
+.p2-footer{
+    margin-left: 120px;
+}
+.icon{
+    margin-right: 36px;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+    background-image: url("Imagens/laranja\ azul\ recorte.png");
+    height: 80vh;
+    background-size: cover;
+    background-position: 60%;
+}
+.text-apresentacao{
+    width: 70%;
+    height: 30%;
+    margin-left: 120px;
+    color: #fff;
+}
+h1{
+    font-size: 3.5em;
+    margin-bottom: 2%;
+}
+.contato{
+    font-size: 1.5em;
+    font-weight: 300;
+}
